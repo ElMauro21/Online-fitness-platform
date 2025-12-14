@@ -75,9 +75,20 @@ In log-normal spending data, high-end outliers are expected and valuable.
 
 5️⃣ Visualization
 
-Histogram to assess distribution shape
+### Distribution of First-Month Spending
+The histogram below shows a **right-skewed distribution**, consistent with a log-normal pattern.
+Most customers spend a moderate amount, while a small group of high spenders creates a long tail.
 
-Boxplot to identify variability and outliers
+![Histogram of Customer Spending](images/spending_histogram.png)
+
+---
+
+### Outlier Detection Using Boxplot
+The boxplot highlights **high-end outliers**, which represent legitimate high-value customers rather than data errors.
+These users are important for revenue growth and segmentation strategies.
+
+![Boxplot of Customer Spending](images/spending_boxplot.png)
+
 
 These visuals support both statistical findings and stakeholder communication.
 
